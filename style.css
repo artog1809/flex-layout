@@ -1,0 +1,49 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+header, footer {
+    background-color: #ccc;
+    padding: 20px;
+}
+
+.main-content {
+    flex: 1;
+    overflow: auto;
+}
+
+.side-content {
+    width: 200px;
+    float: left;
+}
+
+.red, .green {
+    width: 200px;
+    background-color: red;
+    padding: 20px;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    margin-left: 240px;
+    padding: 20px;
+    background-color: yellow;
+}
+
+.yellow img {
+    float: left;
+    margin-right: 10px;
+    height: 100px;
+}
