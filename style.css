@@ -46,4 +46,21 @@ header, footer {
     float: left;
     margin-right: 10px;
     height: 100px;
+    width: 100px;
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+    }
+
+    .side-content, .yellow {
+        width: 100%;
+    }
+
+    .red, .green, .yellow {
+        width: 100%;
+        margin-left: 0;
+        float: none;
+    }
 }
